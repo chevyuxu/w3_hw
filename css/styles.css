@@ -1,0 +1,322 @@
+/* 字體家族 */
+@font-face {
+    font-family: 'Noto Sans', sans-serif;
+    /* 其他字體屬性，如字體權重、風格等 */
+}
+
+.bodyclass {
+    background-color: #edf2c5;
+    width: 1122px;
+    margin: 0 auto;
+}
+
+
+/* 標題區域容器 */
+.headervegetable {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1122px;
+    height: 60px;
+    padding-bottom: 2px;
+    top: 36px;
+    /*left: auto;*/
+    margin: 0 auto;
+}
+
+/* 標題字 */
+.titlevegetable {
+    display: flex;
+    
+}
+
+/* 標題字設定 */
+.headervegetable h1 {
+    width: 253px;
+    height: 60px;
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900; /* 字體變種(某一款字體家族中包含的weight) */
+    font-size: 44px;
+    line-height: 59.93px;
+    color: #778A50;
+}
+
+/* 右上角圖標容器 */
+.btngroup {
+    display: flex;
+    justify-content: space-between;
+    width: 208px;
+    height: 24px;
+
+}
+
+#iconfb {
+    width: 24px;
+    height: 24px;
+}
+
+#iconig {
+    width: 24px;
+    height: 24px;
+}
+
+#shortline {
+    width: 1px;
+    height: 24px;
+}
+
+/* LOGIN與JOIN字體設定 */
+.bordered-text {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    size: 14px;
+    line-height: 19px; /* 將行高設定為元素的高度，使文字垂直置中 */
+    color: #778A50;
+    border-radius: 3px;
+    border: 1px solid #778A50; /* 添加 1 像素實線外框，可以更改顏色和寬度 */
+    padding: 4px 8px 4px 8px; /* 可選：添加內邊距以增加文本與外框的距離 */
+    
+}
+
+#login {
+    
+    width: 46px;
+    height: 19px;
+    text-align: center;
+    line-height: 19px; /* 將行高設定為元素的高度，使文字垂直置中 */
+}
+
+#join {
+    
+    width: 33px;
+    height: 19px;
+    text-align: center;
+    line-height: 19px; /* 將行高設定為元素的高度，使文字垂直置中 */
+}
+
+/* menu部分容器 */
+.menu {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: #778A50;
+    width: 1120px;
+    height: 44px;
+    top: 106px;
+    /*left: auto;*/
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+/* menu導覽列刪除實心圓 */
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+/* menu導覽列變水平 */
+li {
+    float: left;
+}
+
+/* menu導覽列分隔開 */
+li a {
+    display: block;
+    text-decoration: none; /*刪除底線*/
+    text-align: center;
+
+}
+
+/* menu選單字體設定 */
+.menutext {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    size: 16px;
+    line-height: 24px;
+    color: #EDF2C5;
+}
+
+/* menu各個選項字設定 */
+.home {
+    width: 49px;
+    height: 24px;
+    margin-left: 30px;
+}
+
+.aboutus {
+    width: 75px;
+    height: 24px;
+    margin-left: 62px;
+}
+
+.menuvegetables {
+    width: 92px;
+    height: 24px;
+    margin-left: 66px;
+}
+
+.online {
+    width: 55px;
+    height: 24px;
+    margin-left: 67px;
+}
+
+.menucontact {
+    width: 65px;
+    height: 24px;
+    margin-left: 61px;
+}
+
+/* 主圖片南瓜容器 */
+.mainimg {
+    display: flex;
+    position: absolute;
+    width: 1120px;
+    height: 448px;
+    top: 166px;
+    /*left: auto;*/
+    margin: 0 auto;
+}
+
+/* 下方兩箱子容器 */
+.twoboxes {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 1120px;
+    height: 201px;
+    top: 646px;
+    /*left: auto;*/
+    margin: 0 auto;
+}
+
+/* 左下容器 */
+.boxvegetables {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 528px;
+    height: 201px;
+}
+
+/* 左下小標 */
+.boxvegetablesbg {
+    width: 528px;
+    height: 45px;
+    border-radius: 3px;
+    margin: 0;
+    background-color: #778A50;
+    
+}
+
+.boxvegetablesbg h2 {
+    margin: 0;
+    position: absolute;
+    width: 92px;
+    height: 24px;
+    top: 10px;
+    left: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EDF2C5;
+}
+
+/* 左下蔬菜圖容器 */
+.img_vegetables {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 右下容器 */
+.boxcontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 528px;
+    height: 201px;
+}
+
+/* 右下小標 */
+.titlecontactbg {
+    width: 528px;
+    height: 45px;
+    border-radius: 3px;
+    margin: 0;
+    background-color: #778A50;
+}
+
+.titlecontactbg h2 {
+    margin: 0;
+    position: absolute;
+    width: 65px;
+    height: 24px;
+    top: 10px;
+    left: 622px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    color: #EDF2C5;
+}
+
+/* 右下內容 */
+.pacontactbg {
+    width: 528px;
+    height: 140px;
+    background-color: #F7FBDA;
+}
+
+/* 右下內容字體 */
+.pacontactbg p {
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #7D7D7D;
+}
+
+.forany {
+    margin: 16px 16px 9px 16px;
+    width: 496px;
+    height: 54px;
+}
+
+.grayline {
+    width: 496px;
+}
+
+.email {
+    margin: 9px 16px 16px 16px;
+    width: 496px;
+    height: 36px;
+}
+
+/* 最下方 */
+.footer {
+    width: 100%;
+    height: 60px;
+}
+
+.footertextbg{
+    width: 100%;
+    height: 60px;
+    background-color: #778A50;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 964px;
+    left: 0px;
+}
+
+.footertext{
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #EDF2C5;
+}
